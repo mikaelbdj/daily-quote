@@ -1,0 +1,4 @@
+(executable
+ (public_name daily_quote)
+ (name main)
+ (libraries lib notty uutf notty.unix))
