@@ -5,22 +5,22 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github mikaelbdj/daily-quote))
 
 (authors "Mikael B. Dahlsen-Jensen")
 
 (maintainers "Mikael B. Dahlsen-Jensen")
 
-(license LICENSE)
+(license GPL-3.0-only)
 
-(documentation https://url/to/documentation)
+(documentation https://github.com/mikaelbdj/daily-quote)
 
 (package
  (name daily_quote)
- (synopsis "A short synopsis")
- (description "A longer description")
- (depends ocaml dune notty)
+ (synopsis "Daily pretty-printed quotes")
+ (description "Daily pretty-printed quotes")
+ (depends ocaml dune notty csv)
  (tags
-  (topics "to describe" your project)))
+  (quote pretty print daily terminal)))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
