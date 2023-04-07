@@ -1,1 +1,1 @@
-val generate_quote_image : string -> string -> Notty.attr -> int -> Notty.image
+val generate_quote_image : string -> string -> Notty.attr -> int -> int -> Notty.image
